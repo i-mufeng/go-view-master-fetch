@@ -4,7 +4,7 @@ dist
 dist-ssr
 *.local
 .vscode
-
+*-lock.yaml
 # 项目排除路径
 /src/components/GoSystemSet/index.d.ts
 /src/packages/components/Charts/index.d.ts
