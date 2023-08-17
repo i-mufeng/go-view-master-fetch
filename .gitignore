@@ -1,0 +1,27 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+.vscode
+
+# 项目排除路径
+/src/components/GoSystemSet/index.d.ts
+/src/packages/components/Charts/index.d.ts
+/src/packages/components/Decorates/index.d.ts
+/src/packages/components/Icons/index.d.ts
+/src/packages/components/Informations/index.d.ts
+/src/packages/components/Photos/index.d.ts
+/src/packages/components/Tables/index.d.ts
+/src/packages/index.d.ts
+/src/store/modules/chartEditStore/chartEditStore.d.ts
+/src/store/modules/chartHistoryStore/chartHistoryStore.d.ts
+/src/store/modules/chartLayoutStore/chartLayoutStore.d.ts
+/src/store/modules/designStore/designStore.d.ts
+/src/store/modules/langStore/langStore.d.ts
+/src/store/modules/packagesStore/packagesStore.d.ts
+/src/store/modules/settingStore/settingStore.d.ts
+/src/store/modules/systemStore/systemStore.d.ts
+/src/views/chart/ContentConfigurations/index.d.ts
+/src/views/chart/ContentEdit/components/EditTools/index.d.ts
+/src/views/chart/hooks/useContextMenu.hook.d.ts
