@@ -5,8 +5,14 @@ import cloneDeep from "lodash/cloneDeep";
 
 export const option = {
     // 内容
+    datasetDetail: "",
     dataset: "",
-    color:['rgba(3, 166, 224, 0.8)', 'rgba(3, 166, 224, 0.5)'],
+    mainCicleColor:'#03A6E0CC',
+    subCicleColor: '#03A6E07F',
+    textColorFirst: '#2cd05b',
+    textSizeFirst: 20,
+    textColorSecond: '#37b8c3',
+    textSizeSecond: 16,
 }
 
 export default class Config extends PublicConfigClass implements CreateComponentType {

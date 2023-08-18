@@ -4,7 +4,7 @@ import { IframeConfig } from './Iframe/index'
 import { VideoConfig } from './Video/index'
 import { VideoStreamConfig } from './VideoStream/index'
 import { WordCloudConfig } from './WordCloud/index'
-import {AroundCircle} from "@/packages/components/Informations/Mores/AroundCircle/index";
+import {AroundCircleConfig} from "@/packages/components/Informations/Mores/AroundCircle/index";
 
-export default [ImageConfig, ImageCarouselConfig, VideoConfig, IframeConfig, WordCloudConfig, VideoStreamConfig, AroundCircle
+export default [ImageConfig, ImageCarouselConfig, VideoConfig, IframeConfig, WordCloudConfig, VideoStreamConfig, AroundCircleConfig
 ]
